@@ -1,0 +1,9 @@
+{
+  "name": "provision-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "dependencies": {
+    "node-appwrite": "^20.3.0"
+  }
+}
