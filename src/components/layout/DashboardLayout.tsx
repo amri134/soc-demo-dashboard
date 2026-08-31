@@ -1,7 +1,7 @@
 import { NavLink, Outlet } from 'react-router-dom';
 import { useAuth } from '../../features/auth/AuthContext';
 
-const nav = [['/', 'Overview', '▦'], ['/alerts', 'Alerts', '⚠'], ['/incidents', 'Incidents', '◇'], ['/notifications', 'Notifications', '◉'], ['/audit-logs', 'Audit log', '≡'], ['/settings', 'Settings', '⚙']];
+const nav = [['/', 'Overview', '▦'], ['/alerts', 'Alerts', '⚠'], ['/incidents', 'Incidents', '◇'], ['/notifications', 'Notifications', '◉'], ['/integrations', 'Integrations', '↔'], ['/audit-logs', 'Audit log', '≡'], ['/settings', 'Settings', '⚙']];
 
 export function DashboardLayout() {
   const { user, logout, error } = useAuth();

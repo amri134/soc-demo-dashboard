@@ -5,6 +5,7 @@ import { WorkspaceDataProvider } from '../features/workspace/WorkspaceDataContex
 import { AlertsPage } from '../pages/AlertsPage';
 import { AuditLogsPage } from '../pages/AuditLogsPage';
 import { IncidentsPage } from '../pages/IncidentsPage';
+import { IntegrationsPage } from '../pages/IntegrationsPage';
 import { LoginPage } from '../pages/LoginPage';
 import { NotificationsPage } from '../pages/NotificationsPage';
 import { OverviewPage } from '../pages/OverviewPage';
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="alerts" element={<AlertsPage />} />
         <Route path="incidents" element={<IncidentsPage />} />
         <Route path="notifications" element={<NotificationsPage />} />
+        <Route path="integrations" element={<IntegrationsPage />} />
         <Route path="audit-logs" element={<AuditLogsPage />} />
         <Route path="settings" element={<SettingsPage />} />
       </Route>
